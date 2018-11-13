@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<launch>
+	<node pkg="mypkg" type="subscriber.py" name="sub"/>
+	<node pkg="mypkg" type="publisher.py" name="pub_1">
+		<param name="name" value="turtle1"/>
+	</node>
+	<node pkg="mypkg" type="publisher.py" name="pub_2">
+		<param name="name" value="turtle2"/>
+	</node>
+	<node pkg="mypkg" type="publisher.py" name="pub_3">
+		<param name="name" value="turtle3"/>
+	</node>
+	<node pkg="mypkg" type="publisher.py" name="pub_4">
+		<param name="name" value="turtle4"/>
+	</node>
+	<node pkg="mypkg" type="publisher.py" name="pub_5">
+		<param name="name" value="turtle5"/>
+	</node>
+	<node pkg="mypkg" type="publisher.py" name="pub_6">
+		<param name="name" value="turtle6"/>
+	</node>
+	<node pkg="mypkg" type="publisher.py" name="pub_7">
+		<param name="name" value="turtle7"/>
+	</node>
+	<node pkg="mypkg" type="publisher.py" name="pub_8">
+		<param name="name" value="turtle8"/>
+	</node>
+</launch>
